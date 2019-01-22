@@ -1,0 +1,1 @@
+<li><span><?php echo e($newMsg->User->name); ?> :</span> <?php echo e($newMsg->body); ?></li>

@@ -1,0 +1,31 @@
+.filterButton {
+    /* Remove all decorations to look like normal text */
+    background: none;
+    border: none;
+    display: block;
+    font: inherit;
+    margin: 5px 0;
+    padding: 0 5px;
+    outline: none;
+    outline-offset: 0;
+    /* Additional styles to look like a link */
+    color: #6a6971;
+    cursor: pointer;
+    /*text-decoration: underline;*/
+    opacity: 0.5;
+    line-height: 25px;
+    border-radius: 3px;
+
+}
+
+.filterButton:hover, .filterButton:focus, .filterButton:active {
+    opacity: 1;
+    outline:0;
+    background: none;
+}
+
+/* Remove extra space inside buttons in Firefox */
+.filterButton::-moz-focus-inner{
+    border: none;
+    padding: 0;
+}

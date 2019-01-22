@@ -1,0 +1,1 @@
+<li><span>{{$newMsg->User->name}} :</span> {{$newMsg->body}}</li>

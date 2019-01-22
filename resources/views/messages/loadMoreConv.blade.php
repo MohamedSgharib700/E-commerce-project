@@ -1,0 +1,1 @@
+<li><span>أنت :</span> {{$newMsg->body}}</li>
